@@ -33,7 +33,7 @@ export const ModalUpdateUser = ({userData, toggleModalUpdateUser}: ModalUpdateUs
                 <label htmlFor="password">Senha</label>
                 <input type="password" id="password" {...register("password")}/>
                 <label htmlFor="phone">Telefone</label>
-                <input type="phone" id="phone" {...register("phone")}/>
+                <input type="tel" id="phone" data-js="phone" {...register("phone")}/>
 
                 <button type="submit">Atualizar</button>
             </form>

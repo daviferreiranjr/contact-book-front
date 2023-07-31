@@ -105,6 +105,7 @@ export const Dashboard = () => {
                 <div className="title-user">
                     <h1>Contact Book</h1>
                     <p>Olá {targetUser?.name}, seja bem vindo!</p>
+                    <p>Seu número: {targetUser?.phone}</p>
                 </div>
                 <nav>
                     <button type="button" className="icon-nav" onClick={toggleModal}><AiOutlineUserAdd /></button>

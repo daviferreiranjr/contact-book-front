@@ -11,11 +11,16 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
 
+
   > div {
     background-color: var(--color-gray-900);
     padding: 20px;
     box-shadow: 0  0 25px 0 rgba(0,0,0,.25);
     width: 100%;
     max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
   }
 `
